@@ -1,0 +1,1222 @@
+* {
+    overflow-x: hidden;
+
+    font-family: 'Varela Round',
+        sans-serif;
+    /*  */
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+html::-webkit-scrollbar {
+    background-color: rgb(52, 53, 54);
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 20px;
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: rgb(52, 53, 54);
+}
+
+.navMenubar {
+    background-color: rgb(0 0 0);
+    width: max-content;
+    position: absolute;
+    top: 0;
+    right: 0vw;
+    transform: translate(100vw, 0);
+    transition: all 0.5s ease-in-out;
+    z-index: 1111;
+    height: 100vh;
+    border-left: 2px solid orange;
+}
+
+#menuClose {
+    color: orange;
+    font-size: 33px;
+    cursor: pointer;
+    position: absolute;
+    top: 7%;
+    left: 50%;
+}
+
+#openMenu {
+    cursor: pointer;
+}
+
+.topLogos {
+    display: flex;
+    background-color: orange;
+    color: grey;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.topLogos a {
+    color: white !important;
+}
+
+.navSocial {
+    font-size: 24px;
+}
+
+.ram {
+    height: 7vw;
+    padding-left: 40vw;
+    margin-top: 7vw;
+
+}
+
+#animation {
+    background-image: url('/images/svg.jpg');
+    background-color: #555;
+    background-size: cover;
+    height: 100%;
+    text-transform: capitalize;
+    opacity: 500;
+    z-index: 2;
+    transition: transform 2s ease-in-out 0.5s;
+    position: fixed;
+    vertical-align: middle;
+}
+
+.lets {
+    color: rgb(155, 150, 150);
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    z-index: -100;
+    padding-top: 7vw;
+    opacity: 2;
+}
+
+.see {
+    color: rgb(156, 156, 156);
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-transform: capitalize;
+}
+
+#square {
+    text-align: center;
+    margin-left: 40vw;
+    border: none;
+    outline: none;
+    font-size: 3vw;
+    border-radius: 20px;
+    background-image: linear-gradient(120deg, rgb(255, 252, 49) 10%, rgb(255, 0, 0));
+}
+
+#square:hover {
+
+    background-image: linear-gradient(120deg, rgb(206, 39, 240) 10%, rgb(140, 17, 223));
+}
+
+.navbar-toggler {
+    margin-right: 3vw;
+}
+
+div.anim {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0;
+    background-color: black;
+}
+
+.nav-bar {
+    /* background-color: rgb(27, 27, 27); */
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.boysvg {
+    background-color: rgb(27, 27, 27);
+
+
+
+
+}
+
+@media only screen and (max-width:430px) {
+    .mobilefont {
+        font-size: 11px !important;
+        font-weight: normal !important;
+    }
+
+    .even {
+        padding-left: 26vw;
+    }
+
+    .videopara {
+        margin-right: -39vw;
+    }
+
+    .name {
+
+        padding-left: 9vw;
+
+    }
+
+    .column1 {
+        border-left: 5px solid orange;
+        display: flex;
+        width: 70%;
+        margin-bottom: 11vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .column2 {
+        border-left: none;
+        border-right: 5px solid orange;
+
+        display: flex;
+        width: 70%;
+        margin-bottom: 11vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .meet h1 {
+        font-size: 25px !important;
+    }
+
+    .column3 {
+        border-left: 5px solid orange;
+
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .ram {
+        padding-left: 30vw;
+        height: 14vh;
+    }
+
+    .lets {
+        padding-top: 30%;
+    }
+
+    .made2 {
+        margin-left: auto;
+    }
+
+    .call {
+        margin-left: auto;
+    }
+
+    .nope {
+        display: none;
+    }
+
+    .non1 {
+        display: none;
+    }
+
+    .non2 {
+        display: none;
+    }
+
+    .work1 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .work2 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .work3 {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .videograph {
+        margin-bottom: 11vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .even {
+        margin-bottom: 11vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .photograph {
+        margin-bottom: 11vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .logom {
+        margin-bottom: 5vw;
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+
+    .graph {
+        margin-bottom: 11vw;
+        margin-left: 14vw;
+
+    }
+
+    .edit {
+        margin-bottom: 11vw;
+    }
+
+    .count {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .who {
+        height: auto;
+    }
+
+    .number1 {
+        font-size: 4vw;
+
+    }
+
+    .navbar-toggler {
+        float: right;
+    }
+
+    /* .boysvg {
+        height: 57vw;
+    } */
+
+    svg#boy {
+        margin-right: -10vh;
+    }
+
+    .who {
+        height: 70vw;
+    }
+
+    div.camera {
+        height: 100vw;
+        margin-top: 0vw;
+    }
+
+    .animate {
+        display: none;
+    }
+
+    .quote1,
+    .quote2,
+    .quote3 {
+        font-size: 12px !important;
+    }
+
+
+    .welcome {
+        font-size: 15px !important;
+    }
+
+    .intro-text {
+
+        margin-top: -20vw !important;
+    }
+
+    .ramaVideo video {
+        margin-top: -5vw !important;
+    }
+
+}
+
+.intro-text {
+
+    margin-top: -6vw;
+}
+
+.line {
+    background-color: rgb(230, 134, 24);
+    height: 0.5vh;
+}
+
+.nav-item a {
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3vw;
+    font-weight: bold;
+    border-radius: 1vw;
+
+
+}
+
+.nav-item:hover a {
+
+    color: white;
+    background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%);
+    background-color: black;
+    border-radius: 10vw;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.nav-item {
+    list-style: none;
+    border-radius: 10vw;
+    padding-inline: 12px;
+}
+
+#navbarNavDropdown ul a {
+    color: rgb(230, 144, 16);
+    background-color: rgb(27, 27, 27);
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+#navbarNavDropdown ul a:active {
+    background-color: rgb(20, 20, 20);
+    color: rgb(230, 144, 16);
+    border-radius: 50px;
+}
+
+.quote1,
+.quote2,
+.quote3 {
+    color: rgb(175, 174, 172);
+    font-size: 1.5vw;
+    list-style: none;
+}
+
+.navbar-brand img {
+    height: 5vh;
+    margin-left: 2vw;
+
+}
+
+#navbarNavDropdown ul a:hover {
+
+    background-color: rgb(12, 12, 12);
+    color: rgb(230, 144, 16);
+    transition: 0.5s ease-in-out;
+    border-radius: 50px;
+}
+
+.rama {
+    color: rgb(235, 235, 235);
+    font-size: 4.5vw;
+    border-right: 2px solid orange;
+
+    font-weight: bold;
+    text-align: center;
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: text 5s steps(17) infinite alternate;
+    padding-top: 0vw;
+    font-style: italic;
+}
+
+@keyframes text {
+    0% {
+        width: 0ch;
+    }
+
+    50% {
+        width: 17ch;
+    }
+
+}
+
+.welcome {
+    color: rgb(255, 211, 145);
+    font-size: 2.5vw;
+    text-align: center;
+    z-index: 1;
+    opacity: 1;
+    font-style: italic;
+}
+
+.happyboy img {
+    height: 80vh;
+}
+
+.animate {
+    font-size: 3vw;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.text {
+    color: rgb(241, 220, 179);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.dropdown-menu {
+    background-color: rgb(52, 53, 54);
+    border-radius: 10px;
+    box-shadow: 0px 10px 0.5px orange;
+}
+
+svg#boy1 {
+    margin-right: 0vw;
+    height: 30vw;
+    position: absolute;
+    right: -5vw;
+    bottom: 0;
+}
+
+svg#boy2 {
+    margin-right: 0vw;
+    height: 30vw;
+    position: absolute;
+    left: -5vw;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    bottom: 0;
+}
+
+div.camera {
+    background-image: url("/images/dslr3.jpg");
+    height: 50vw;
+    background-position: center;
+    background-size: cover;
+    list-style: none;
+
+}
+
+.we {
+    font-size: 2vw;
+    color: orange;
+    text-align: center;
+    padding-right: 8vw;
+    padding-top: 10vw;
+    font-style: italic;
+}
+
+.happy1 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-left: 30vw;
+    border-left: 8px solid orange;
+    font-style: italic;
+}
+
+.happy2 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-left: 8px solid orange;
+    margin-left: 30vw;
+    font-style: italic;
+}
+
+.shot {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    border-right: 8px solid rgb(255, 255, 255);
+    margin-left: 30vw;
+    font-style: italic;
+}
+
+.galler a {
+    color: rgb(255, 255, 255);
+    border: 2px solid orange;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2.5vw;
+    letter-spacing: 0vh;
+    margin-left: 39vw;
+    margin-top: 50vh;
+}
+
+.galler a:hover {
+
+    color: black;
+    background-color: orange;
+    border: 2px solid black;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.who {
+    background-image: url('/images/grad.jpg');
+    background-size: cover;
+    /*filter: grayscale(0.5);*/
+    height: auto;
+}
+
+.hello {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10vw;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.are {
+    color: white;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+.line3 {
+    height: 0.1vw;
+    opacity: 1;
+    background-color: grey;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 5vw;
+}
+
+.p1 {
+    color: rgb(255, 115, 0);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 5vw;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.numb1,
+.numb2,
+.numb3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 2vw;
+
+}
+
+.number1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.number2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.number3 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.num1 {
+    color: rgb(247, 123, 22);
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.num2 {
+    color: rgb(247, 123, 22);
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.num3 {
+    color: rgb(247, 123, 22);
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.numb1 {
+    border-right: 1px solid grey;
+}
+
+.numb2 {
+    border-right: 1px solid grey;
+}
+
+.abo {
+    text-align: center;
+    border: 2px solid black;
+    width: 25vw;
+    margin-left: 35vw;
+    border-radius: 5vw;
+}
+
+.abo:hover {
+    background-color: black;
+    color: orange;
+
+}
+
+.abo1 {
+
+    list-style: none;
+    text-decoration: dashed;
+    font-size: 15px;
+    color: rgb(255, 115, 0);
+}
+
+.abo1 li:hover {
+    color: orange;
+
+}
+
+.third {
+    background-color: #fffcf9;
+
+
+}
+
+.line4 {
+    height: 0.1vw;
+    background-color: orange;
+    margin-top: 5vw;
+    width: 50vw;
+    margin-left: 25vw;
+
+}
+
+.clients h6 {
+    text-align: center;
+    padding-top: 8vw;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
+}
+
+.clients h1 {
+    color: black;
+    font-size: 4.4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.clients h2 {
+    color: black;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.work1 {
+    padding-top: 10vw;
+    display: flex;
+}
+
+.work2 {
+    display: flex;
+    padding-top: 7vw;
+}
+
+.work3 {
+    display: flex;
+    padding-top: 7vw;
+}
+
+.even {
+    margin-left: -19vw;
+}
+
+.even img {
+    width: auto;
+    height: 5vw;
+}
+
+.eventpara {
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.event {
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+
+}
+
+.videograph {
+    padding-left: 2vw;
+}
+
+.videograph img {
+    width: auto;
+    height: 5vw;
+}
+
+.photograph {
+
+    padding-left: 2vw;
+}
+
+.videopara {
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5vw;
+    padding-right: 40vw;
+}
+
+.videographer {
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.photograph img {
+
+    width: auto;
+    height: 5vw;
+
+}
+
+.map iframe {
+    width: 50%;
+    height: 50vw;
+}
+
+.photographer {
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+
+
+}
+
+.photopara {
+
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.logom img {
+    width: auto;
+    height: 5vw;
+
+}
+
+.logomake {
+
+    color: black;
+    font-size: 3vw;
+    font-weight: bold;
+
+}
+
+.LOGOPARA {
+    color: grey;
+    font-weight: bold;
+    font-style: italic;
+
+    font-size: 1.5vw;
+
+}
+
+.graph {
+    padding-right: 15vw;
+    padding-left: 2vw;
+}
+
+.edit {
+    padding-right: 1vw;
+}
+
+.graph img {
+    width: auto;
+    height: 5vw;
+
+}
+
+.graphic {
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+
+}
+
+.graphpara {
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5vw;
+
+}
+
+.edit img {
+    width: auto;
+    height: 5vw;
+
+
+}
+
+.editing {
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+
+}
+
+.editpara {
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-style: italic;
+    color: grey;
+
+}
+
+.fourth {
+    background-image: url("/images/back.jpg");
+    height: 60vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.ourcl h1 {
+    color: orange;
+    font-size: 1.5vw;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10vw;
+
+}
+
+.these h2 {
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+}
+
+.honor h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    text-align: center;
+
+}
+
+.partner {
+    display: flex;
+    margin-top: 7vw;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0vw;
+    height: 20vw;
+
+}
+
+.logo1:hover {
+
+    opacity: 1;
+}
+
+.logo2:hover {
+    opacity: 1;
+
+}
+
+.logo3:hover {
+
+    opacity: 1;
+}
+
+.logo4:hover {
+
+    opacity: 1;
+}
+
+.logo5:hover {
+
+    opacity: 1;
+}
+
+.logo6:hover {
+
+    opacity: 1;
+}
+
+.logo1 {
+    width: auto;
+    height: 9vw;
+    padding-right: 5vw;
+    opacity: 0.7;
+}
+
+.logo2 {
+    width: auto;
+    height: 9vw;
+    padding-right: 5vw;
+    opacity: 0.7;
+
+}
+
+.logo3 {
+    opacity: 0.7;
+    width: auto;
+    height: 9vw;
+    padding-right: 5vw;
+
+}
+
+.logo4 {
+    opacity: 0.7;
+    width: auto;
+    height: 9vw;
+    padding-right: 5vw;
+
+}
+
+.logo5 {
+    opacity: 0.7;
+    width: auto;
+    height: 9vw;
+    padding-right: 5vw;
+
+}
+
+.logo6 {
+    opacity: 0.7;
+    width: auto;
+    height: 9vw;
+    padding-right: 0vw;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 50px;
+    right: 5vh;
+
+    font-size: 1vw;
+    border: none;
+    outline: none;
+    background-color: rgba(241, 155, 42, 0.507);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 22px;
+    z-index: 100;
+}
+
+#myBtn:hover {
+    background-color: #555;
+
+}
+
+.contact {
+    background-color: rgb(71, 71, 71);
+    height: 100%;
+
+}
+
+.cont h2 {
+    color: orange;
+    font-size: 2vw;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.cont {
+    padding-top: 10vw;
+}
+
+.reach h2 {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reach h3 {
+    color: white;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line5 {
+    background-color: orange;
+    opacity: 0.5;
+    height: 0.2vw;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 5vw;
+}
+
+.whole {
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.whole h6 {
+    color: orange;
+    font-size: 2vw;
+    font-weight: bold;
+
+    margin-top: 10vw;
+}
+
+.whole h5 {
+
+    font-style: italic;
+    font-size: 2vw;
+}
+
+.whole a {
+    text-decoration: none;
+    color: grey;
+    font-style: italic;
+    font-size: 1.5vw;
+
+}
+
+.whole a:hover {
+    color: orange;
+
+}
+
+.email {
+    margin-top: 4vw;
+    width: 30%;
+}
+
+.email h6 {
+    color: orange;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.email a {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.email h5 {
+
+    font-style: italic;
+    font-size: 2vw;
+
+}
+
+.email a:hover {
+    color: orange;
+
+}
+
+.fl {
+    display: flex;
+}
+
+.call {
+    margin-top: 4vw;
+    margin-left: auto;
+
+}
+
+.call h6 {
+    color: orange;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: end;
+}
+
+.call h5 {
+    color: grey;
+    font-style: italic;
+    font-size: 2vw;
+    text-align: end;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(80, 80, 80);
+    display: flex;
+
+}
+
+.made1 {
+    font-size: 1vw;
+}
+
+.made2 {
+    margin-left: 27vw;
+    font-size: 1vw;
+}
+
+.logos a:hover {
+    color: orange;
+
+}
+
+.mor h5:hover {
+    color: #555;
+    background-color: orange;
+    border-radius: 5vw;
+    font-weight: bold;
+
+}
