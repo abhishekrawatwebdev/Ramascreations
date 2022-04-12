@@ -1220,3 +1220,19 @@ div.camera {
     font-weight: bold;
 
 }
+@media (max-width:780px) {
+    #menuClose {
+
+        left: 32px;
+    }
+
+    .nav-item a {
+
+        font-size: 2.5vw;
+
+    }
+
+    .nav-item {
+        margin-top: 5vw;
+    }
+}
