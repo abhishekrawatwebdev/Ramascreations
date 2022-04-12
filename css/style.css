@@ -78,7 +78,7 @@ html::-webkit-scrollbar-track {
 }
 
 #animation {
-    background-image: url('/images/svg.jpg');
+    background-image: url('images/svg.jpg');
     background-color: #555;
     background-size: cover;
     height: 100%;
@@ -511,7 +511,7 @@ svg#boy2 {
 }
 
 div.camera {
-    background-image: url("/images/dslr3.jpg");
+    background-image: url("images/dslr3.jpg");
     height: 50vw;
     background-position: center;
     background-size: cover;
@@ -923,7 +923,7 @@ div.camera {
 }
 
 .fourth {
-    background-image: url("/images/back.jpg");
+    background-image: url("images/back.jpg");
     height: 60vw;
     background-position: center;
     background-size: cover;
