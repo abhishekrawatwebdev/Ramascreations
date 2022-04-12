@@ -1,0 +1,123 @@
+.teams {
+    background-image: url("/images/team1.jpg");
+    filter: grayscale(0.2);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw 50vw;
+    z-index: 0;
+    background-color: rgb(150, 148, 148);
+}
+
+.line6 {
+    height: 0.2vw;
+    background-color: orange;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: 7vw;
+
+}
+
+.column1 img,
+.column2 img,
+.column3 img {
+    width: auto;
+    height: 23vw;
+    border-radius: 50vw;
+    margin-top: 2vw;
+
+}
+
+.column1 {
+    border-bottom: 5px solid orange;
+    border-left: 5px solid orange;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 35vw;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3vw;
+    border-radius: 3vw;
+
+
+}
+
+.column2 {
+    border-bottom: 5px solid orange;
+    border-left: 5px solid orange;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 35vw;
+    margin-right: 3vw;
+    border-radius: 3vw;
+    text-align: center;
+
+}
+
+.column3 {
+    border-bottom: 5px solid orange;
+    border-left: 5px solid orange;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 35vw;
+    border-radius: 3vw;
+    text-align: center;
+
+}
+
+.aunty,
+.richadi,
+.ashudi {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet h6 {
+    color: rgb(255, 166, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-top: 10vw;
+
+}
+
+.meet h1 {
+    font-size: 5vw;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 6vw;
+
+}
+
+.name h1 {
+    color: orange;
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 3vw;
+}
+
+.name h6 {
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+
+.many {
+    font-size: 3vw;
+    margin-top: 7vw;
+    background-color: rgba(255, 166, 0, 0.425);
+}
+
+@media only screen and (max-width:760px) {
+    .name h1 {
+        font-size: 4vw !important;
+    }
+}
