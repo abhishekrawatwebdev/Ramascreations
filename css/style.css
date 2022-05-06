@@ -43,11 +43,9 @@ html::-webkit-scrollbar-track {
 
 #menuClose {
     color: orange;
-    font-size: 33px;
+    font-size: 24px;
     cursor: pointer;
-    position: absolute;
-    top: 7%;
-    left: 50%;
+
 }
 
 #openMenu {
@@ -77,7 +75,7 @@ html::-webkit-scrollbar-track {
 
 }
 
-#animation {
+.navbar-sm #animation {
     background-image: url('../images/svg.jpg');
     background-color: #555;
     background-size: cover;
@@ -1220,7 +1218,40 @@ div.camera {
     font-weight: bold;
 
 }
+
+.navbar-sm {
+    transition: all 0.3s ease-in-out;
+    padding-top: 6vw;
+    display: none;
+    position: fixed;
+    background-color: #555;
+    right: -100%;
+
+}
+
+#openMenu {
+    display: none;
+}
+
+@media (max-width:881px) {
+    #openMenu {
+        display: block;
+    }
+
+    .navbar-sm {
+        display: block;
+    }
+
+    .navbar-lg {
+        display: none;
+    }
+}
+
 @media (max-width:780px) {
+    .navbar-lg {
+        display: none;
+    }
+
     #menuClose {
 
         left: 32px;

@@ -1,18 +1,23 @@
-function myfunc() {
-    const see = document.getElementsByClassName("see")
-    const lets = document.getElementsByClassName("lets");
-    const animation = document.getElementById("animation");
+window.addEventListener('load', () => {
+    console.log("gjdjkdc")
+    function myfunc() {
+        const see = document.getElementsByClassName("see")
+        const lets = document.getElementsByClassName("lets");
+        const animation = document.getElementById("animation");
 
-    animation.style.transform = 'translate(110vw,0VW)';
+        animation.style.transform = 'translate(110vw,0VW)';
 
-}
+    };
 
-document.getElementById("openMenu").addEventListener('click', () => {
-    console.log("helllll")
-    document.getElementById('navbarList').style.transform = "translate(0vw , 0)";
-})
+    document.getElementById("openMenu").addEventListener('click', () => {
 
-document.getElementById("menuClose").addEventListener('click', () => {
-    console.log("helllll")
-    document.getElementById('navbarList').style.transform = "translate(100vw , 0)";
-})
+        document.getElementById('nav-sm').style.right = "0%";
+
+    });
+    document.getElementById("menuClose").addEventListener('click', () => {
+
+        document.getElementById('nav-sm').style.right = "-100%";
+
+    });
+
+});

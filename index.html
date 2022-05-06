@@ -27,7 +27,7 @@
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
-    <div class="navMenubar" id="navbarList">
+    <!-- <div class="navMenubar" id="navbarList">
         <i class="fas fa-times" id="menuClose"></i>
 
         <div style="background-color: black; width: 60vw;margin: auto;padding: 3vw 0 3vw 0; margin-top: 5vw;">
@@ -64,17 +64,71 @@
 
         </div>
 
-    </div>
-    <nav class="nav-bar sticky">
+    </div> -->
+    <nav class="nav-bar sticky " style="display: flex;justify-content: space-between;">
+        <a class="navbar-brand" href="index.html"><img src="images/ramaslogo.png" alt=""></a>
+        <i class="fas fa-bars" id="openMenu"
+            style="margin-right: 2vw; color: orange; font-size: 24px; margin-top: 1vw;"></i>
+        <nav class="navbar navbar-lg">
 
-        <nav class="navbar">
 
-            <div style="width: 100vw; display: flex; justify-content: space-between;align-items: center;">
-                <a class="navbar-brand" href="index.html"><img src="images/ramaslogo.png" alt=""></a>
-                <i class="fas fa-bars" id="openMenu" style="margin-right: 2vw; color: orange; font-size: 25px;"></i>
+            <!-- <i class="fas fa-bars" id="openMenu" style="margin-right: 2vw; color: orange; font-size: 25px;"></i> -->
+
+
+            <div class="nav-links">
+                <ul style="display: flex;margin-bottom: 0;">
+                    <li class="nav-item " style="text-align: center;">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="team.html">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
+        <!-- mobile navbar -->
+        <nav class="navbar-sm " id="nav-sm" style="min-height: 100vh;min-width: 100vw; ">
 
 
+
+
+            <div class="nav-links" style="display: flex;justify-content: center;">
+
+                <ul style="margin-bottom: 0;padding-left: 0;">
+                    <li style="justify-content: center;display: flex;"><i class="fas fa-times" id="menuClose"></i></li>
+                    <li class="nav-item " style="text-align: center;">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="team.html">OUR TEAM</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="services.html">SERVICES</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item" style="text-align: center;">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
     </nav>
