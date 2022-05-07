@@ -201,8 +201,8 @@ div.anim {
     }
 
     .ramaVideo video {
-        height: 82vh !important;
-        width: 122vw;
+        height: 70vh !important;
+        width: 122vw !important;
         margin-left: -11vw;
     }
 
