@@ -9,6 +9,10 @@
     margin: 0;
 }
 
+.side-padding {
+    padding: 0 2vw;
+}
+
 html {
     overflow-y: scroll;
 }
