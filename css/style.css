@@ -158,7 +158,104 @@ div.anim {
 
 }
 
+.logos {
+    background-color: orange !important;
+    color: grey !important;
+    text-align: center !important;
+    display: flex !important;
+    justify-content: space-around !important;
+
+    align-items: center !important;
+    padding-top: 5px;
+}
+
+.logos a {
+    height: fit-content;
+}
+
 @media only screen and (max-width:430px) {
+    .call {
+        margin-left: 0 !important;
+    }
+
+
+
+    .email h5 {
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+
+    .call h6 {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .call h5 {
+        text-align: center !important;
+        font-size: 12px !important;
+    }
+
+    .made1 {
+        font-size: 10px !important;
+    }
+
+    .made2 {
+        font-size: 10px !important;
+    }
+
+    .email {
+        width: 100% !important;
+    }
+
+    .fl {
+        /* flex-direction: column; */
+        display: block !important;
+    }
+
+    .email h6 {
+        font-size: 14px !important;
+        text-align: center !important;
+    }
+
+    .whole h6 {
+        font-size: 15px !important;
+    }
+
+    .whole h5 {
+        font-size: 14px !important;
+    }
+
+    .name h6 {
+        font-size: 11px !important;
+    }
+
+    .meet h6 {
+        font-size: 16px !important;
+    }
+
+    .photopara,
+    .LOGOPARA,
+    .graphpara,
+    .editpara {
+        font-weight: normal !important;
+        font-size: 14px !important;
+    }
+
+    .graph {
+        padding-right: 14vw !important;
+        padding-left: 0vw !important;
+    }
+
+    .photographer,
+    .logomake,
+    .graphic,
+    .editing {
+        font-size: 16px !important;
+    }
+
+    #myBtn {
+        font-size: 3vw !important;
+    }
 
     .clients h6,
     h1,
