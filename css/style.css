@@ -532,6 +532,28 @@ div.anim {
 
 }
 
+.smActive {
+    color: white;
+    background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%);
+    background-color: black;
+    border-radius: 10vw;
+}
+
+.smActive a {
+    color: white;
+}
+
+.lgActive {
+    color: white;
+    background-image: linear-gradient(315deg, #f5df2e 0%, #f07654 74%);
+    background-color: black;
+    border-radius: 10vw;
+}
+
+.lgActive a {
+    color: white;
+}
+
 .nav-item:hover a {
 
     color: white;
