@@ -1457,3 +1457,32 @@ div.camera {
         margin-top: 3vw;
     }
 }
+
+form input,
+form textarea,
+form button {
+    width: 50%;
+    margin-top: 2vw;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: orange;
+}
+
+form button {
+    color: white;
+    background-color: orange;
+    transition: 0.3s all ease-in-out;
+}
+
+form button:hover {
+    color: orange;
+    border: 1px solid orange;
+    background-color: white;
+}
